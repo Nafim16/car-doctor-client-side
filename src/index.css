@@ -1,3 +1,104 @@
 .custom-max-width {
   max-width: 1280px;
 }
+
+
+/* Custom CSS to move the carousel control buttons to the bottom right */
+.carousel-control-prev {
+  position: absolute;
+  top: 90%;
+  /* Adjust the vertical position as needed */
+  left: 83%;
+  transform: translateY(-50%);
+  border-radius: 50%;
+  background-color: rgb(5, 5, 5);
+  height: 60px;
+  width: 60px;
+}
+
+.carousel-control-next {
+  position: absolute;
+  top: 90%;
+  /* Adjust the vertical position as needed */
+  right: 5%;
+  transform: translateY(-50%);
+  border-radius: 50%;
+  height: 60px;
+  width: 60px;
+  background-color: rgb(5, 5, 5);
+}
+
+.carousel-control-next:hover {
+  background-color: #FF3811;
+}
+
+.carousel-control-prev:hover {
+  background-color: #FF3811;
+}
+
+.h {
+  height: 600px;
+}
+
+.grad {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: linear-gradient(90deg, #151515 0%, rgba(21, 21, 21, 0.00) 100%);
+  width: 100%;
+  height: 100%;
+}
+
+.xb {
+  position: absolute;
+  top: 50%;
+  /* Adjust the vertical position as needed */
+  left: 10%;
+  transform: translateY(-50%);
+  /* background: linear-gradient(90deg, #151515 0%, rgba(21, 21, 21, 0.00) 100%); */
+}
+
+.htext {
+  color: var(--White-Color, #FFF);
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 75px;
+}
+
+.ptext {
+  color: var(--White-Color, #FFF);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  text-transform: capitalize;
+  margin-top: 30px;
+}
+
+.bs1 {
+  height: 56px;
+  width: 170px;
+  border-radius: 5px;
+  border-color: #FFFFFF;
+  color: #FFFFFF;
+  margin-right: 20px;
+  margin-top: 30px;
+}
+
+.bs1:hover {
+  background-color: #FF3811;
+}
+
+.bs2 {
+  height: 56px;
+  width: 170px;
+  border-radius: 5px;
+  border-color: #FFFFFF;
+  color: #FFFFFF;
+  margin-top: 30px;
+}
+
+.bs2:hover {
+  background-color: #FF3811;
+}

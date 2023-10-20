@@ -16,19 +16,19 @@ const Navbar = () => {
                     <div className="collapse navbar-collapse" id="navbarTogglerDemo02">
                         <ul className="navbar-nav mx-auto mb-2 mb-lg-0">
                             <li className="nav-item">
-                                <Link to={'/'} className="nav-link active" aria-current="page">Home</Link>
+                                <Link to={'/'} className="nav-link fw-semibold active" aria-current="page">Home</Link>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link" href="#">About</Link>
+                                <Link className="nav-link fw-semibold" href="#">About</Link>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link" href="#">Services</Link>
+                                <Link className="nav-link fw-semibold" href="#">Services</Link>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link" href="#">Blog</Link>
+                                <Link className="nav-link fw-semibold" href="#">Blog</Link>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link" href="#">Contact</Link>
+                                <Link className="nav-link fw-semibold" href="#">Contact</Link>
                             </li>
                             
                         </ul>
