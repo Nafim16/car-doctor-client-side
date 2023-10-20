@@ -6,7 +6,7 @@
 /* Custom CSS to move the carousel control buttons to the bottom right */
 .carousel-control-prev {
   position: absolute;
-  top: 90%;
+  top: 85%;
   /* Adjust the vertical position as needed */
   left: 83%;
   transform: translateY(-50%);
@@ -18,7 +18,7 @@
 
 .carousel-control-next {
   position: absolute;
-  top: 90%;
+  top: 85%;
   /* Adjust the vertical position as needed */
   right: 5%;
   transform: translateY(-50%);
@@ -101,4 +101,84 @@
 
 .bs2:hover {
   background-color: #FF3811;
+}
+
+.tp{
+  margin-top: 132px;
+}
+
+.pos1{
+  position: relative;
+  max-height: 473px;
+  max-width: 460px;
+}
+.aimg1{
+  max-width: 100%;
+}
+.pos2{
+  position: absolute;
+  top: 230%;
+  right: 55%;
+  z-index: 1;
+  max-width: 50%;
+  
+}
+.aimg2{
+  max-height: 332px;
+  max-width: 327px;
+  
+}
+.mar {
+  margin-left: 60px;
+}
+
+.ah4 {
+  color: var(--ff-3811, #FF3811);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.ah1 {
+  color: var(--Dark-01, #151515);
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 20px;
+}
+
+.ap1 {
+  color: var(--Dark-03, #737373);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  /* 187.5% */
+  text-transform: capitalize;
+  width: 490px;
+  margin-top: 30px;
+}
+
+.ap2 {
+  color: var(--Dark-03, #737373);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  /* 187.5% */
+  text-transform: capitalize;
+  width: 490px;
+  margin-top: 20px;
+}
+
+.abs {
+  height: 56px;
+  width: 170px;
+  border-radius: 5px;
+  color: #FFFFFF;
+  background-color: #FF3811;
+  margin-top: 30px;
+
 }
